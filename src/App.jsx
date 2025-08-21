@@ -47,7 +47,7 @@ const projects = [
     title: "Real Time Pupil Segmentation",
     description:
       "Deployed optimized CNNs on an Ultra96v2 FPGA board for real-time video processing. The pipeline segmented the pupil of an eye in real time, an important aspect in seizure detection.",
-    image: "/assets/ultra96.png",
+    image: "assets/ultra96.png",
     link: "https://sdmay25-01.sd.ece.iastate.edu/",
     linkLabel: "Project Website",
     tags: ["Python", "CV", "ML", "DL", "AI", "FPGA"],
@@ -57,7 +57,7 @@ const projects = [
     title: "Automated Lameness Detection for Dairy Farms",
     description:
       "Patent Pending Research for my Master's Thesis; A system to detect lame cows in dairy farms utilizing ML, AI, and AWS architectures.",
-    image: "/assets/yoloResults.jpg",
+    image: "assets/yoloResults.jpg",
     link: null, // no external link
     linkLabel: "Thesis Paper (In Progress)", // show this text
     tags: ["Python", "CV", "ML", "DL", "AI", "AWS"],
@@ -67,7 +67,7 @@ const projects = [
     title: "Automated Image Captioning",
     description:
       "A generalized image captioning model capable of captioning a wide variety of images. A customized deep-learning architecture was used and evaluated.",
-    image: "/assets/image-captioning-arch.png",
+    image: "assets/image-captioning-arch.png",
     link: "https://github.com/MasonInman29/image-captioning", // no external link
     linkLabel: "Github", // show this text
     tags: ["Python", "ML", "AI", "DL"],
@@ -77,7 +77,7 @@ const projects = [
     title: "Adversarial Search Agent",
     description:
       "An AI agent that performs a hybrid Bayesian-Monte-Carlo-Tree-Search. My agent was recognized as one of the top performers amongst all my classmates by my professor.",
-    image: "/assets/adversarial-search-agent.png",
+    image: "assets/adversarial-search-agent.png",
     link: null, // no external link
     linkLabel: "Github redacted for academic purposes.", // show this text
     tags: ["Python", "ML", "AI", "DL"],
@@ -87,7 +87,7 @@ const projects = [
     title: "Cancer Prediction",
     description:
       "Analyzed the effectiveness of Logistic Regression vs Random Forest techniques at predicting if a tumor is cancerous.",
-    image: "/assets/dataset-cover-cancer-prediction.jpg",
+    image: "assets/dataset-cover-cancer-prediction.jpg",
     link: "https://github.com/MasonInman29/CancerPrediction/tree/main", // no external link
     linkLabel: "Github", // show this text
     tags: ["Python", "ML"],
@@ -109,13 +109,13 @@ const projects = [
       "Utilizing OpenCV, I developed a real time facial detection system to familiarize myself with leading CV technology and create a filter.",
     link: "https://github.com/MasonInman29/Live_Facial_Detection", // no external link
     linkLabel: "Github", // show this text
-    image: "/assets/FacialDetection.png",
+    image: "assets/FacialDetection.png",
     tags: ["Python", "CV"],
   },
   {
     id: 8,
     title: "Disassembler",
-    image: "/assets/arm-example.png",
+    image: "assets/arm-example.png",
     description:
       "Disassembling a binary file into ARMv8 assembly language, more specifically the LEGv8 subset.",
     link: null, // no external link
@@ -125,7 +125,7 @@ const projects = [
   {
     id: 9,
     title: "Procedurally Generated Pokemon Game",
-    image: "/assets/pokemonscreenshot.png",
+    image: "assets/pokemonscreenshot.png",
     description:
       "Full Rogue-like Pokemon. Automatic terrain, path, gym, market, and NPC generation.",
     link: null, // no external link
@@ -164,7 +164,7 @@ export default function App() {
           <a href="#experience" className="hover:underline">
             Experience
           </a>
-          <a href="/assets/InmanMasonResume_2025.pdf" className="hover:underline">
+          <a href="assets/InmanMasonResume_2025.pdf" className="hover:underline">
             View My Resume
           </a>
           <a href="#contact" className="hover:underline">
@@ -176,7 +176,7 @@ export default function App() {
       <section id="about" className="max-w-3xl mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <img
-          src="/assets/masonPhoto.jpg"
+          src="assets/masonPhoto.jpg"
           alt="Picture of Mason"
           className="w-full object-cover"
         />
@@ -380,7 +380,7 @@ export default function App() {
         <h2 className="text-2xl font-bold mb-6">Resume</h2>
 
       <a
-          href="/assets/InmanMasonResume_2025.pdf" // replace with your PDF path
+          href="assets/InmanMasonResume_2025.pdf" // replace with your PDF path
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-gray-900 text-white px-6 py-2 rounded-lg font-medium 
